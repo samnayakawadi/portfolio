@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        herobg: "#F8F9FC",
+        footerbg:"#1D1E24"
+      }
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
