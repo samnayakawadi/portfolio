@@ -9,6 +9,7 @@ export default {
       colors: {
         herobg: "#F8F9FC",
         footerbg: "#1D1E24",
+        aboutbg: "#191919",
         servicesbg: "#101010",
         serviceTileBg: "#191919",
         serviceTileBgOnHover: "#1D1E24"

@@ -7,18 +7,12 @@ import testing from "./images/testing.png"
 
 const Services = () => {
     return (
-        <div className="bg-servicesbg text-white px-32 py-20">
+        <div className="bg-servicesbg text-white container-padding-x container-padding-y">
 
             <div className="text-center px-20">
-                <h1 className="text-7xl font-semibold">My Awesome Service</h1>
+                <h1 className="text-7xl font-bold">My Awesome Service</h1>
                 <h4 className="text-lg px-52 pt-5 text-gray-400">Providing tailored web solutions from in-depth requirement analysis to secure backend development, ensuring seamless functionality and design excellence.</h4>
             </div>
-
-            {/* <div className="flex flex-row justify-center items-center">
-                <div className="basis-4/12">
-
-                </div>
-            </div> */}
 
             <div className="grid grid-cols-3 gap-10 pt-20">
                 <div className="p-10 bg-serviceTileBg rounded-lg py-14 hover:bg-serviceTileBgOnHover transition ease-linear delay-75 hover:scale-105 hover:cursor-pointer">
