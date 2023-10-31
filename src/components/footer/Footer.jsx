@@ -6,7 +6,7 @@ import twitter from "./images/twitter.png"
 const Footer = () => {
 
     return (
-        <div className="flex flex-row justify-center items-center p-10 border-2 border-lime-100 bg-footerbg">
+        <div className="flex flex-row justify-center items-center p-10 bg-footerbg">
             <div className="basis-4/12 text-center text-gray-400">
                 samnayakawadi
             </div>

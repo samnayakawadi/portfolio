@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         herobg: "#F8F9FC",
-        footerbg:"#1D1E24"
+        footerbg: "#1D1E24",
+        servicesbg: "#101010",
+        serviceTileBg: "#191919",
+        serviceTileBgOnHover: "#1D1E24"
       }
     },
   },
