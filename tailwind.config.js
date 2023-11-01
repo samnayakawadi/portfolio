@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        herobg: "#F8F9FC",
+        navbg: "#1D1E24",
+        herobg: "#090909",
         footerbg: "#1D1E24",
         aboutbg: "#191919",
         servicesbg: "#101010",

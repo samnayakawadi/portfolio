@@ -35,13 +35,13 @@ const Hero = () => {
             <div className="basis-5/12 p-32">
                 <div className="avatar flex flex-row justify-center">
                     <div className="w-80 rounded-full ring ring-white ring-offset-base-100 ring-offset-8">
-                        {/* <img src="https://trydo.rainbowit.net/assets/images/about/designer-avatar.png" /> */}
-                        <img src={samnayakawadi} />
+                        <img src="https://trydo.rainbowit.net/assets/images/about/designer-avatar.png" />
+                        {/* <img src={samnayakawadi} /> */}
                     </div>
                 </div>
             </div>
-            <div className="basis-7/12">
-                <h4 className="-tracking-tighter uppercase font-light text-lg pb-3">Welcome To My World</h4>
+            <div className="basis-7/12 text-white">
+                <h4 className="-tracking-tighter uppercase font-light text-lg pb-3 text-gray-400">Welcome To My World</h4>
                 <h1 className="text-5xl font-bold pb-3">Hi, I{"'"}m Samir Nayakawadi</h1>
                 <h1 className="text-6xl font-bold text-red-500 pb-6">{data}</h1>
                 <h1 className="text-5xl font-bold pb-3">Based in Bharat.</h1>
