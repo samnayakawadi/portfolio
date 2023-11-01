@@ -1,4 +1,5 @@
 import AboutMe from "./components/about-me/AboutMe"
+import Contact from "./components/contact-me/Contact"
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <AboutMe />
       <Services />
+      <Contact />
       <Footer />
     </div>
   )

@@ -13,7 +13,8 @@ export default {
         aboutbg: "#191919",
         servicesbg: "#101010",
         serviceTileBg: "#191919",
-        serviceTileBgOnHover: "#1D1E24"
+        serviceTileBgOnHover: "#1D1E24",
+        contactbg: "#191919"
       }
     },
   },
