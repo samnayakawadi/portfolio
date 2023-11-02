@@ -7,12 +7,12 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 hover:text-red-600">
-                            <li><a className="hover:text-red-600">Home</a></li>
-                            <li><a className="hover:text-red-600">About</a></li>
-                            <li><a className="hover:text-red-600">Service</a></li>
-                            <li><a className="hover:text-red-600">Projects</a></li>
-                            <li><a className="hover:text-red-600">Contact</a></li>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 hover:text-redColor">
+                            <li><a className="hover:text-redColor">Home</a></li>
+                            <li><a className="hover:text-redColor">About</a></li>
+                            <li><a className="hover:text-redColor">Service</a></li>
+                            <li><a className="hover:text-redColor">Projects</a></li>
+                            <li><a className="hover:text-redColor">Contact</a></li>
                             {/* <li>
                                 <a>Parent</a>
                                 <ul className="p-2">
@@ -26,11 +26,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
-                        <li><a className="hover:text-red-600 hover:bg-navbg">Home</a></li>
-                        <li><a className="hover:text-red-600 hover:bg-navbg">About</a></li>
-                        <li><a className="hover:text-red-600 hover:bg-navbg">Service</a></li>
-                        <li><a className="hover:text-red-600 hover:bg-navbg">Projects</a></li>
-                        <li><a className="hover:text-red-600 hover:bg-navbg">Contact</a></li>
+                        <li><a className="hover:text-redColor hover:bg-navbg">Home</a></li>
+                        <li><a className="hover:text-redColor hover:bg-navbg">About</a></li>
+                        <li><a className="hover:text-redColor hover:bg-navbg">Service</a></li>
+                        <li><a className="hover:text-redColor hover:bg-navbg">Projects</a></li>
+                        <li><a className="hover:text-redColor hover:bg-navbg">Contact</a></li>
                         {/* <li tabIndex={0}>
                             <details>
                                 <summary>Parent</summary>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-red-600 border-red-600 text-white hover:bg-red-600 hover:border-red-600 hover:text-white tracking-widest">Download Resume</a>
+                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest">Download Resume</a>
                 </div>
             </div>
         </>

@@ -16,17 +16,17 @@ const Selector = () => {
     return (
         <div>
             <div className="flex flex-row gap-10 text-lg font-bold">
-                <span className={`hover:cursor-pointer ${currentSelector === "skills" && "text-red-600"}`}>
-                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "skills" && "border-red-600"}`} onClick={() => { onSelectHandler("skills") }}>Main Skills</button>
+                <span className={`hover:cursor-pointer ${currentSelector === "skills" && "text-redColor"}`}>
+                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "skills" && "border-redColor"}`} onClick={() => { onSelectHandler("skills") }}>Main Skills</button>
                 </span>
-                {/* <span className={`hover:cursor-pointer ${currentSelector === "awards" && "text-red-600"}`}>
-                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "awards" && "border-red-600"}`} onClick={() => { onSelectHandler("awards") }}>Awards</button>
+                {/* <span className={`hover:cursor-pointer ${currentSelector === "awards" && "text-redColor"}`}>
+                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "awards" && "border-redColor"}`} onClick={() => { onSelectHandler("awards") }}>Awards</button>
                 </span> */}
-                <span className={`hover:cursor-pointer ${currentSelector === "experience" && "text-red-600"}`}>
-                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "experience" && "border-red-600"}`} onClick={() => { onSelectHandler("experience") }}>Experience</button>
+                <span className={`hover:cursor-pointer ${currentSelector === "experience" && "text-redColor"}`}>
+                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "experience" && "border-redColor"}`} onClick={() => { onSelectHandler("experience") }}>Experience</button>
                 </span>
-                <span className={`hover:cursor-pointer ${currentSelector === "education" && "text-red-600"}`}>
-                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "education" && "border-red-600"}`} onClick={() => { onSelectHandler("education") }}>Education</button>
+                <span className={`hover:cursor-pointer ${currentSelector === "education" && "text-redColor"}`}>
+                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "education" && "border-redColor"}`} onClick={() => { onSelectHandler("education") }}>Education</button>
                 </span>
             </div>
             <div className="pt-5">

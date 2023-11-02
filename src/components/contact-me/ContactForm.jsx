@@ -98,7 +98,7 @@ const ContactForm = () => {
                 <span>{alert.message}</span>
             </div>}
 
-            <button type="submit" className={`btn bg-red-600 border-red-600 text-white hover:bg-red-600 hover:border-red-600 hover:text-white w-full tracking-widest ${alert.status && alert.type === "processing" && "bg-gray-600 border-gray-600 text-white hover:bg-gray-600 hover:border-gray-600 hover:text-white cursor-wait"}`}>{(alert.status && alert.type === "processing") ? "Sending Request" : "Submit"}</button>
+            <button type="submit" className={`btn bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white w-full tracking-widest ${alert.status && alert.type === "processing" && "bg-gray-600 border-gray-600 text-white hover:bg-gray-600 hover:border-gray-600 hover:text-white cursor-wait"}`}>{(alert.status && alert.type === "processing") ? "Sending Request" : "Submit"}</button>
         </form>
     )
 }

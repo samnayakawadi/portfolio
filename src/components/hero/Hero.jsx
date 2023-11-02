@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import samnayakawadi from "./images/samnayakawadi.png"
+// import samnayakawadi from "./images/samnayakawadi.png"
 
 const Hero = () => {
 
@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="basis-7/12 text-white">
                 <h4 className="-tracking-tighter uppercase font-light text-lg pb-3 text-gray-400">Welcome To My World</h4>
                 <h1 className="text-5xl font-bold pb-3">Hi, I{"'"}m Samir Nayakawadi</h1>
-                <h1 className="text-6xl font-bold text-red-500 pb-6">{data}</h1>
+                <h1 className="text-6xl font-bold text-redColor pb-6">{data}</h1>
                 <h1 className="text-5xl font-bold pb-3">Based in Bharat.</h1>
             </div>
         </div>

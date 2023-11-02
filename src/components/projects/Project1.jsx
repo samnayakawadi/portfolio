@@ -48,9 +48,9 @@ const Project1 = () => {
                     <h1 className="text-7xl font-bold">Online Assessment Tool</h1>
                     <h4 className="text-lg pt-5 text-gray-400">A flexible, one-stop solution for all types of online knowledge assessments. Enterprise technology. Explore our key features and much more.</h4>
                     <div className="flex flex-row gap-5 pt-5">
-                        <a href="https://drive.google.com/drive/folders/1rer3lzrMQK_2w-JqVGmM640w3Y7S3OS5?usp=drive_link" target="_blank" rel="noreferrer" className="text-white hover:text-red-600 cursor-pointer pb-2 hover:border-b-2 hover:border-red-600">See Presentations</a>
-                        <a href="https://drive.google.com/drive/folders/1dkKvIFWXMQfRnzWnF2oLs9uTnFXx0jx9?usp=sharing" target="_blank" rel="noreferrer" className="text-white hover:text-red-600 cursor-pointer pb-2 hover:border-b-2 hover:border-red-600">See Manuals</a>
-                        <a href="https://meghsikshak.in/" target="_blank" rel="noreferrer" className="text-white hover:text-red-600 cursor-pointer pb-2 hover:border-b-2 hover:border-red-600">Contact Sales</a>
+                        <a href="https://drive.google.com/drive/folders/1rer3lzrMQK_2w-JqVGmM640w3Y7S3OS5?usp=drive_link" target="_blank" rel="noreferrer" className="text-white hover:text-redColor cursor-pointer pb-2 hover:border-b-2 hover:border-redColor">See Presentations</a>
+                        <a href="https://drive.google.com/drive/folders/1dkKvIFWXMQfRnzWnF2oLs9uTnFXx0jx9?usp=sharing" target="_blank" rel="noreferrer" className="text-white hover:text-redColor cursor-pointer pb-2 hover:border-b-2 hover:border-redColor">See Manuals</a>
+                        <a href="https://meghsikshak.in/" target="_blank" rel="noreferrer" className="text-white hover:text-redColor cursor-pointer pb-2 hover:border-b-2 hover:border-redColor">Contact Sales</a>
                     </div>
                 </div>
                 <div className="basis-6/12">
@@ -60,7 +60,7 @@ const Project1 = () => {
                 </div>
             </div>
             <div className="pt-20">
-                <div className="grid grid-cols-1 gap-10">
+                <div className="grid grid-cols-1 gap-5">
                     {data.map((singleItem, itemIndex) => {
                         return (
                             <div key={itemIndex} className="p-10 bg-project1TileBg rounded-lg py-14 hover:bg-project1TileBgOnHover transition ease-linear delay-75 hover:scale-100 hover:cursor-pointer">
