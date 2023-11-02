@@ -14,7 +14,10 @@ export default {
         servicesbg: "#101010",
         serviceTileBg: "#191919",
         serviceTileBgOnHover: "#1D1E24",
-        contactbg: "#191919",
+        project1: "#191919",
+        project1TileBg: "#101010",
+        project1TileBgOnHover: "#1D1E24",
+        contactbg: "#101010",
       }
     },
   },
