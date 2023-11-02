@@ -1,6 +1,7 @@
 import requirements from "../services/images/requirements.png"
 
-const Project1 = () => {
+// eslint-disable-next-line react/prop-types
+const Project1 = ({ onHoverHandler }) => {
 
     const data = [
         {
@@ -41,7 +42,7 @@ const Project1 = () => {
     ]
 
     return (
-        <div className="bg-project1 text-white container-padding-x container-padding-y">
+        <div id="project" className="bg-project1 text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("project") }}>
             <div className="flex flex-row justify-center items-center gap-10">
                 <div className="basis-6/12">
                     <h4 className="-tracking-tighter uppercase font-light text-lg pb-3 text-gray-400">My Corporate Project</h4>

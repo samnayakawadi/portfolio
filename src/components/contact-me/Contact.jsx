@@ -1,9 +1,10 @@
 import ContactForm from "./ContactForm"
 // import contactNow from "./images/contact.png"
 
-const Contact = () => {
+// eslint-disable-next-line react/prop-types
+const Contact = ({ onHoverHandler }) => {
     return (
-        <div className="bg-contactbg text-white container-padding-x container-padding-y">
+        <div id="contact" className="bg-contactbg text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("contact") }}>
             <div className="flex flex-row justify-center items-center gap-5">
                 <div className="basis-6/12">
                     <div className="text-left">

@@ -1,4 +1,5 @@
-const Navbar = () => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({ currentLocation }) => {
     return (
         <>
             <div className="navbar bg-navbg text-white sticky z-20 top-0">
@@ -26,11 +27,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
-                        <li><a className="hover:text-redColor hover:bg-navbg">Home</a></li>
-                        <li><a className="hover:text-redColor hover:bg-navbg">About</a></li>
-                        <li><a className="hover:text-redColor hover:bg-navbg">Service</a></li>
-                        <li><a className="hover:text-redColor hover:bg-navbg">Projects</a></li>
-                        <li><a className="hover:text-redColor hover:bg-navbg">Contact</a></li>
+                        <li><a href="#home" className={`hover:text-redColor ${currentLocation === "home" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Home</a></li>
+                        <li><a href="#about" className={`hover:text-redColor ${currentLocation === "about" ? "text-redColor" : "text-white"} hover:bg-navbg`}>About</a></li>
+                        <li><a href="#service" className={`hover:text-redColor ${currentLocation === "service" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Service</a></li>
+                        <li><a href="#project" className={`hover:text-redColor ${currentLocation === "project" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Project</a></li>
+                        <li><a href="#contact" className={`hover:text-redColor ${currentLocation === "contact" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Contact</a></li>
                         {/* <li tabIndex={0}>
                             <details>
                                 <summary>Parent</summary>

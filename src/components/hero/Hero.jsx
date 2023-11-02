@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 // import samnayakawadi from "./images/samnayakawadi.png"
 
-const Hero = () => {
+// eslint-disable-next-line react/prop-types
+const Hero = ({ onHoverHandler }) => {
 
     const defaultData = [
         "Fullstack Developer",
@@ -31,7 +32,7 @@ const Hero = () => {
     }, [])
 
     return (
-        <div className="flex flex-row justify-center items-center bg-herobg">
+        <div id="home" className="flex flex-row justify-center items-center bg-herobg" onMouseOver={() => { onHoverHandler("home") }}>
             <div className="basis-5/12 p-32">
                 <div className="avatar flex flex-row justify-center">
                     <div className="w-80 rounded-full ring ring-white ring-offset-base-100 ring-offset-8">
