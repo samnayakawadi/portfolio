@@ -22,15 +22,15 @@ const Navbar = () => {
                             </li> */}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">samnayakawadi</a>
+                    <a href="#" className="btn btn-ghost normal-case text-xl hover:bg-navbg">samnayakawadi</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
-                        <li><a className="hover:text-red-600">Home</a></li>
-                        <li><a className="hover:text-red-600">About</a></li>
-                        <li><a className="hover:text-red-600">Service</a></li>
-                        <li><a className="hover:text-red-600">Projects</a></li>
-                        <li><a className="hover:text-red-600">Contact</a></li>
+                        <li><a className="hover:text-red-600 hover:bg-navbg">Home</a></li>
+                        <li><a className="hover:text-red-600 hover:bg-navbg">About</a></li>
+                        <li><a className="hover:text-red-600 hover:bg-navbg">Service</a></li>
+                        <li><a className="hover:text-red-600 hover:bg-navbg">Projects</a></li>
+                        <li><a className="hover:text-red-600 hover:bg-navbg">Contact</a></li>
                         {/* <li tabIndex={0}>
                             <details>
                                 <summary>Parent</summary>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm">Download Resume</a>
+                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-red-600 border-red-600 text-white hover:bg-red-600 hover:border-red-600 hover:text-white tracking-widest">Download Resume</a>
                 </div>
             </div>
         </>

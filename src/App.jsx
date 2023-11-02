@@ -8,7 +8,7 @@ import Services from "./components/services/Services"
 
 export default function App() {
   return (
-    <div data-theme="lofi">
+    <div data-theme="corporate">
       <Navbar />
       <Hero />
       <AboutMe />

@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        redColor: "#f3123b",
         navbg: "#1D1E24",
         herobg: "#090909",
         footerbg: "#1D1E24",
@@ -24,6 +25,10 @@ export default {
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["lofi", "business"],
+    themes: ["corporate", "lofi", "business"],
   },
 }
+
+// lofi or corporate is WHITE SQUARED THEME [lofi has little different colors but corporate has correct colors]
+// light is WHILE DEFAULT BASIC THEME
+// business is BLACK SQUARED THEME
