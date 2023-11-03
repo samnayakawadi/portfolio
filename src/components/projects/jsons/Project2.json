@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "title": "Dashboard",
+            "description": "Instructor can see all questions & quizzes in separate tabs under each topics. All the questions & quizzes created in topics will be displayed in course. Here instructor can create new question after choosing specific question type. In the same way, Instructor can create new quiz or else directly import the questions from excel through import editor. There is Delete button to delete the question or quiz."
+        }
+    ],
+    "id": "project",
+    "colors": {
+        "bgColor": "project2bg",
+        "tileBgColor": "project2TileBg"
+    },
+    "about": {
+        "header": "My Educational Project",
+        "title": "Online Printing System",
+        "description": "Revolutionize your printing experience with this one-of-a-kind software, designed to streamline the photocopying and printing process while transforming into a convenient online marketplace for all your printing needs."
+    },
+    "buttons": [
+        {
+            "link": "https://drive.google.com/file/d/1ISZ8sVpOcht-sG76wy9BUV70rn9T8PjX/view",
+            "title": "See Report"
+        },
+        {
+            "link": "https://letsprint.netlify.app/",
+            "title": "See Webapp"
+        }
+    ],
+    "youtube": {
+        "width": "560",
+        "height": "315",
+        "link": "https://www.youtube.com/embed/XJP3vcWcYkg?si=R9ML7QoOdIMN_JN9"
+    }
+}
