@@ -1,8 +1,20 @@
 {
     "data": [
         {
-            "title": "Dashboard",
-            "description": "Instructor can see all questions & quizzes in separate tabs under each topics. All the questions & quizzes created in topics will be displayed in course. Here instructor can create new question after choosing specific question type. In the same way, Instructor can create new quiz or else directly import the questions from excel through import editor. There is Delete button to delete the question or quiz."
+            "title": "Overview",
+            "description": "This is a web-based application that allows users to print documents online from any location. Users can upload PDF files, select a printing shop, pay online, and get notified when their documents are ready. Users can also manage their orders, wallet, and profile through the application."
+        },
+        {
+            "title": "Hassle Free",
+            "description": "The application aims to digitalize the printing process and save time and money for users and vendors1. Users can compare prices and locations of different printing shops and choose the best option for them. Vendors can receive orders and payments online and reduce the hassle of manual operations."
+        },
+        {
+            "title": "Social Cause",
+            "description": "The application also promotes social distancing and reduces the risk of virus transmission. Users do not need to use USB drives or share their contact details with vendors. They can also avoid waiting in queues and crowds at printing shops. They can simply pick up their documents whenever they want."
+        },
+        {
+            "title": "Multiple Applications",
+            "description": "The application has potential applications in various sectors such as schools, colleges, private companies, and government offices. It can also be integrated with delivery services and embedded systems for more convenience and automation. It can help the society to be more productive and efficient."
         }
     ],
     "id": "project",
@@ -19,6 +31,10 @@
         {
             "link": "https://drive.google.com/file/d/1ISZ8sVpOcht-sG76wy9BUV70rn9T8PjX/view",
             "title": "See Report"
+        },
+        {
+            "link": "https://docs.google.com/presentation/d/15_VDOma1QvK0Ef_t3zNDRL0LKDhaU4mJtRyvpvPXsuk/edit?usp=sharing",
+            "title": "See Presentation"
         },
         {
             "link": "https://letsprint.netlify.app/",
