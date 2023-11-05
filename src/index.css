@@ -4,11 +4,11 @@
 
 @layer {
     .container-padding-x {
-        @apply px-[10%]
+        @apply px-[10%] max-lg:px-[5%]
     }
 
     .container-padding-y {
-        @apply max-sm:py-[10%] py-[5%]
+        @apply py-[5%] max-lg:py-[10%]
     }
 
     .scroll-margin-top {

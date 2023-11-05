@@ -7,13 +7,13 @@ import github from "./images/github.png"
 const Footer = () => {
 
     return (
-        <div className="flex flex-row max-sm:flex-wrap justify-center items-center p-10 bg-footerbg max-sm:gap-10">
-            <div className="basis-4/12 max-sm:basis-full text-center text-gray-400">
+        <div className="flex flex-row max-lg:flex-wrap justify-center items-center p-10 bg-footerbg max-lg:gap-10">
+            <div className="basis-4/12 max-lg:basis-full text-center text-gray-400">
                 samnayakawadi |
                 {" "}
                 <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="hover:text-redColor">Download Resume</a>
             </div>
-            <div className="basis-4/12 max-sm:basis-full">
+            <div className="basis-4/12 max-lg:basis-full">
                 <div className="flex flex-row justify-center items-center gap-2">
                     <a href="https://facebook.com/samnayakawadi" target="_blank" rel="noreferrer">
                         <button className="btn btn-circle border-2 bg-footerbg border-white hover:bg-redColor hover:border-redColor p-0">
@@ -42,7 +42,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className="basis-4/12 text-gray-400 max-sm:basis-full text-center">
+            <div className="basis-4/12 text-gray-400 max-lg:basis-full text-center">
                 Made with ❤️ | Original Code |
                 {" "}
                 <a href="https://github.com/samnayakawadi/portfolio" target="_blank" rel="noreferrer" className="hover:text-redColor">Checkout Github Repository</a>

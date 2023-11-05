@@ -12,12 +12,12 @@ const ProjectTemplate = ({ onHoverHandler, id, data, colors, about, buttons, you
 
     return (
         <div id={id} className={`bg-${colors.bgColor} text-white container-padding-x container-padding-y scroll-margin-top`} onMouseOver={() => { onHoverHandler(id) }}>
-            <div className="flex flex-row max-sm:flex-wrap max-sm:text-center justify-center items-center gap-10">
-                <div className="basis-6/12 max-sm:basis-full">
+            <div className="flex flex-row max-lg:flex-wrap max-lg:text-center justify-center items-center gap-10">
+                <div className="basis-6/12 max-lg:basis-full">
                     <h4 className="-tracking-tighter uppercase font-light text-lg pb-3 text-gray-400">{about.header}</h4>
-                    <h1 className="text-7xl font-bold max-sm:text-5xl">{about.title}</h1>
+                    <h1 className="text-7xl font-bold max-lg:text-5xl">{about.title}</h1>
                     <h4 className="text-lg pt-5 text-gray-400">{about.description}</h4>
-                    <div className="flex flex-row max-sm:justify-center gap-5 pt-5">
+                    <div className="flex flex-row max-lg:justify-center gap-5 pt-5">
                         {
                             buttons.map((singleButton, buttonIndex) => {
                                 return (<a key={buttonIndex} href={singleButton.link} target="_blank" rel="noreferrer" className="text-white hover:text-redColor cursor-pointer pb-2 hover:border-b-2 hover:border-redColor">{singleButton.title}</a>)
@@ -27,7 +27,7 @@ const ProjectTemplate = ({ onHoverHandler, id, data, colors, about, buttons, you
                         <a href="https://meghsikshak.in/" target="_blank" rel="noreferrer" className="text-white hover:text-redColor cursor-pointer pb-2 hover:border-b-2 hover:border-redColor">Contact Sales</a> */}
                     </div>
                 </div>
-                <div className="basis-6/12 max-sm:basis-full">
+                <div className="basis-6/12 max-lg:basis-full">
                     <div className="pt-5">
                         <iframe className="w-full" width={youtube.width} height={youtube.height} src={youtube.link} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>

@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div data-theme="business" className="cursor-crosshair">
-      {/* <div className="p-10 bg-white text-black hidden max-sm:block">
+      {/* <div className="p-10 bg-white text-black hidden max-lg:block">
         <h1>MAX-SM</h1>
       </div> */}
       <Navbar currentLocation={currentLocation} />
