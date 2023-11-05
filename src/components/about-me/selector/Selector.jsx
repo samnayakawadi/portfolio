@@ -17,7 +17,7 @@ const Selector = () => {
         <div>
             <div className="flex flex-row gap-10 text-lg font-bold">
                 <span className={`hover:cursor-pointer ${currentSelector === "skills" && "text-redColor"}`}>
-                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "skills" && "border-redColor"}`} onClick={() => { onSelectHandler("skills") }}>Main Skills</button>
+                    <button className={`pb-2 border-b-2 border-solid ${currentSelector === "skills" && "border-redColor"}`} onClick={() => { onSelectHandler("skills") }}>Skills</button>
                 </span>
                 {/* <span className={`hover:cursor-pointer ${currentSelector === "awards" && "text-redColor"}`}>
                     <button className={`pb-2 border-b-2 border-solid ${currentSelector === "awards" && "border-redColor"}`} onClick={() => { onSelectHandler("awards") }}>Awards</button>

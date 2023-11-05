@@ -4,7 +4,7 @@
 
 @layer {
     .container-padding-x {
-        @apply px-[10%] max-lg:px-[5%]
+        @apply px-[10%] max-lg:px-[7%]
     }
 
     .container-padding-y {

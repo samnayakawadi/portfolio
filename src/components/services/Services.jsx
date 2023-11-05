@@ -15,7 +15,7 @@ const Services = ({ onHoverHandler }) => {
                 <h4 className="text-lg px-52 max-lg:px-0 pt-5 text-gray-400">Providing tailored web solutions from in-depth requirement analysis to secure backend development, ensuring seamless functionality and design excellence.</h4>
             </div>
 
-            <div className="grid grid-cols-3 max-lg:grid-cols-1 gap-10 pt-20">
+            <div className="grid grid-cols-3 max-lg:grid-cols-1 pt-20 max-lg:pt-10 gap-10 max-lg:gap-6">
                 <div className="p-10 bg-serviceTileBg rounded-lg py-14 hover:bg-serviceTileBgOnHover transition ease-linear delay-75 hover:scale-105 hover:cursor-pointer">
                     <img src={requirements} className="w-20" />
                     <h1 className="text-xl font-semibold pt-3">Requirement Analysis</h1>

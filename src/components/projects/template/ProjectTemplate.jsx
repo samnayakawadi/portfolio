@@ -33,8 +33,8 @@ const ProjectTemplate = ({ onHoverHandler, id, data, colors, about, buttons, you
                     </div>
                 </div>
             </div>
-            <div className="pt-20">
-                <div className="grid grid-cols-1 gap-5">
+            <div className="pt-20 max-lg:pt-10">
+                <div className="grid grid-cols-1 gap-6">
                     {data.map((singleItem, itemIndex) => {
                         return (
                             <div key={itemIndex} className={`p-10 bg-${colors.tileBgColor} rounded-lg py-14 hover:bg-project1TileBgOnHover transition ease-linear delay-75 hover:scale-100 hover:cursor-pointer`}>
