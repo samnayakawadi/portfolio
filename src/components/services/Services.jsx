@@ -11,7 +11,7 @@ const Services = ({ onHoverHandler }) => {
         <div id="service" className="bg-servicesbg text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("service") }}>
 
             <div className="text-center px-20 max-sm:px-0">
-                <h1 className="text-7xl font-bold">My Awesome Service</h1>
+                <h1 className="text-7xl font-bold max-sm:text-5xl">My Awesome Service</h1>
                 <h4 className="text-lg px-52 max-sm:px-0 pt-5 text-gray-400">Providing tailored web solutions from in-depth requirement analysis to secure backend development, ensuring seamless functionality and design excellence.</h4>
             </div>
 

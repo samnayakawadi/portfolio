@@ -44,8 +44,11 @@ const Navbar = ({ currentLocation }) => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest">Download Resume</a>
+                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest"><span className="max-sm:hidden">Download Resume</span><span className="max-sm:block">e-Resume</span></a>
                 </div>
+                {/* <div className="navbar-end max-sm:block">
+                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest">J</a>
+                </div> */}
             </div>
         </>
     )
