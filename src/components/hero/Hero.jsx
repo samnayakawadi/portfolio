@@ -32,7 +32,7 @@ const Hero = ({ onHoverHandler }) => {
     }, [])
 
     return (
-        <div id="home" className="flex flex-row max-sm:flex-wrap justify-center items-center bg-herobg" onMouseOver={() => { onHoverHandler("home") }}>
+        <div id="home" className="flex flex-row max-sm:flex-wrap justify-center items-center bg-herobg scroll-margin-top" onMouseOver={() => { onHoverHandler("home") }}>
             <div className="max-sm:basis-full basis-5/12 p-32 max-sm:p-10">
                 <div className="avatar flex flex-row justify-center">
                     <div className="w-80 max-sm:w-[70%] rounded-full ring ring-white ring-offset-base-100 ring-offset-8">

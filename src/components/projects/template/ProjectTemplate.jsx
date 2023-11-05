@@ -11,7 +11,7 @@ const ProjectTemplate = ({ onHoverHandler, id, data, colors, about, buttons, you
     // bg-project2TileBg
 
     return (
-        <div id={id} className={`bg-${colors.bgColor} text-white container-padding-x container-padding-y`} onMouseOver={() => { onHoverHandler(id) }}>
+        <div id={id} className={`bg-${colors.bgColor} text-white container-padding-x container-padding-y scroll-margin-top`} onMouseOver={() => { onHoverHandler(id) }}>
             <div className="flex flex-row max-sm:flex-wrap max-sm:text-center justify-center items-center gap-10">
                 <div className="basis-6/12 max-sm:basis-full">
                     <h4 className="-tracking-tighter uppercase font-light text-lg pb-3 text-gray-400">{about.header}</h4>

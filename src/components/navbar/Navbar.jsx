@@ -9,11 +9,11 @@ const Navbar = ({ currentLocation }) => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 hover:text-redColor">
-                            <li><a className="hover:text-redColor">Home</a></li>
-                            <li><a className="hover:text-redColor">About</a></li>
-                            <li><a className="hover:text-redColor">Service</a></li>
-                            <li><a className="hover:text-redColor">Projects</a></li>
-                            <li><a className="hover:text-redColor">Contact</a></li>
+                            <li><a href="#home" className={`hover:text-redColor ${currentLocation === "home" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Home</a></li>
+                            <li><a href="#about" className={`hover:text-redColor ${currentLocation === "about" ? "text-redColor" : "text-white"} hover:bg-navbg`}>About</a></li>
+                            <li><a href="#service" className={`hover:text-redColor ${currentLocation === "service" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Service</a></li>
+                            <li><a href="#project" className={`hover:text-redColor ${currentLocation === "project" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Projects</a></li>
+                            <li><a href="#contact" className={`hover:text-redColor ${currentLocation === "contact" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Contact</a></li>
                             {/* <li>
                                 <a>Parent</a>
                                 <ul className="p-2">
@@ -44,7 +44,7 @@ const Navbar = ({ currentLocation }) => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest"><span className="max-sm:hidden">Download Resume</span><span className="max-sm:block">e-Resume</span></a>
+                    <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest"><span className="block max-sm:hidden">Download Resume</span><span className="hidden max-sm:block">e-Resume</span></a>
                 </div>
                 {/* <div className="navbar-end max-sm:block">
                     <a href="http://gg.gg/samnayakawadi-resume" target="_blank" rel="noreferrer" className="btn btn-sm bg-redColor border-redColor text-white hover:bg-redColor hover:border-redColor hover:text-white tracking-widest">J</a>

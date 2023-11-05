@@ -8,7 +8,7 @@ import testing from "./images/testing.png"
 // eslint-disable-next-line react/prop-types
 const Services = ({ onHoverHandler }) => {
     return (
-        <div id="service" className="bg-servicesbg text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("service") }}>
+        <div id="service" className="bg-servicesbg text-white container-padding-x container-padding-y scroll-margin-top" onMouseOver={() => { onHoverHandler("service") }}>
 
             <div className="text-center px-20 max-sm:px-0">
                 <h1 className="text-7xl font-bold max-sm:text-5xl">My Awesome Service</h1>

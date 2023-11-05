@@ -10,4 +10,8 @@
     .container-padding-y {
         @apply max-sm:py-[10%] py-[5%]
     }
+
+    .scroll-margin-top {
+        @apply scroll-mt-[64px]
+    }
 }

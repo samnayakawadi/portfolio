@@ -4,7 +4,7 @@ import Selector from "./selector/Selector"
 // eslint-disable-next-line react/prop-types
 const AboutMe = ({ onHoverHandler }) => {
     return (
-        <div id="about" className="bg-aboutbg text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("about") }}>
+        <div id="about" className="bg-aboutbg text-white container-padding-x container-padding-y scroll-margin-top" onMouseOver={() => { onHoverHandler("about") }}>
 
             {/* <div className="text-center px-20">
                 <h1 className="text-7xl font-bold">About Me</h1>

@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm"
 // eslint-disable-next-line react/prop-types
 const Contact = ({ onHoverHandler }) => {
     return (
-        <div id="contact" className="bg-contactbg text-white container-padding-x container-padding-y" onMouseOver={() => { onHoverHandler("contact") }}>
+        <div id="contact" className="bg-contactbg text-white container-padding-x container-padding-y scroll-margin-top" onMouseOver={() => { onHoverHandler("contact") }}>
             <div className="flex flex-row max-sm:flex-wrap-reverse justify-center items-center gap-10">
                 <div className="basis-6/12 max-sm:basis-full">
                     <div className="text-left">

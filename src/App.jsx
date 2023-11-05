@@ -17,11 +17,12 @@ export default function App() {
   }
 
   return (
-    <div data-theme="corporate" className="cursor-crosshair">
+    <div data-theme="business" className="cursor-crosshair">
       {/* <div className="p-10 bg-white text-black hidden max-sm:block">
         <h1>MAX-SM</h1>
       </div> */}
       <Navbar currentLocation={currentLocation} />
+      {/* <div className="pt-10"></div> */}
       <Hero onHoverHandler={onHoverHandler} />
       <AboutMe onHoverHandler={onHoverHandler} />
       <Services onHoverHandler={onHoverHandler} />
