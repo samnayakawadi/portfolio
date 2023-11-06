@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-// import samnayakawadi from "./images/samnayakawadi.png"
+import samnayakawadi from "./images/samnayakawadi.jpeg"
 
 // eslint-disable-next-line react/prop-types
 const Hero = ({ onHoverHandler }) => {
@@ -36,8 +36,8 @@ const Hero = ({ onHoverHandler }) => {
             <div className="max-lg:basis-full basis-5/12 p-32 max-lg:p-10">
                 <div className="avatar flex flex-row justify-center">
                     <div className="w-80 max-lg:w-[70%] rounded-full ring ring-white ring-offset-base-100 ring-offset-8">
-                        <img src="https://trydo.rainbowit.net/assets/images/about/designer-avatar.png" />
-                        {/* <img src={samnayakawadi} /> */}
+                        {/* <img src="https://trydo.rainbowit.net/assets/images/about/designer-avatar.png" /> */}
+                        <img src={samnayakawadi} />
                     </div>
                 </div>
             </div>

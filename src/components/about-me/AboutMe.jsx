@@ -1,5 +1,7 @@
 import Selector from "./selector/Selector"
 // import samnayakawadiCdac from "./images/samnayakawadi-cdac.png"
+// import aboutmeimage from "./images/illustration-about-me.jpg" //Free photo part of black and white portrait of male in a suit on dark grey background.
+import aboutme from "./images/aboutme.jpg"
 
 // eslint-disable-next-line react/prop-types
 const AboutMe = ({ onHoverHandler }) => {
@@ -14,9 +16,11 @@ const AboutMe = ({ onHoverHandler }) => {
             <div className="flex flex-row max-lg:flex-wrap justify-center items-center gap-10">
                 <div className="max-lg:basis-full basis-5/12">
                     <div className="flex flex-row justify-center">
-                        <img src="https://trydo.rainbowit.net/assets/images/about/about-8.jpg" />
+                        {/* <img src="https://trydo.rainbowit.net/assets/images/about/about-8.jpg" /> */}
+                        {/* <img src={samnayakawadiCdac} /> */}
+                        <img src={aboutme} />
+                        {/* <img src="https://source.unsplash.com/random/500x665/?nature,black" />  */}
                     </div>
-                    {/* <img src={samnayakawadiCdac} /> */}
                 </div>
                 <div className="max-lg:basis-full basis-7/12">
                     {/* <h1 className="text-7xl font-bold">About Me</h1> */}

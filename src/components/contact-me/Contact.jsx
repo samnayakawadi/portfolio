@@ -1,5 +1,6 @@
 import ContactForm from "./ContactForm"
 // import contactNow from "./images/contact.png"
+import contactme from "./images/contactme.jpg"
 
 // eslint-disable-next-line react/prop-types
 const Contact = ({ onHoverHandler }) => {
@@ -19,7 +20,9 @@ const Contact = ({ onHoverHandler }) => {
                 </div>
                 <div className="basis-6/12 max-lg:basis-full">
                     <div className="flex flex-row justify-center">
-                        <img src="https://trydo.rainbowit.net/assets/images/about/about-8.jpg" />
+                        {/* <img src="https://trydo.rainbowit.net/assets/images/about/about-8.jpg" /> */}
+                        {/* <img src="https://source.unsplash.com/random/500x665/?clouds,dark"/> */}
+                        <img src={contactme} />
                     </div>
                     {/* <img src={contactNow}/> */}
                 </div>
