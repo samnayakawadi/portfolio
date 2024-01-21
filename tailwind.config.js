@@ -21,7 +21,7 @@ export default {
         project2bg: "#101010",
         project2TileBg: "#191919",
         project2TileBgOnHover: "#1D1E24",
-        contactbg: "#191919",
+        contactbg: "#111827",
       }
     },
   },

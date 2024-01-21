@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "title": "The Problem",
+            "description": "This project was created to ease the deployment of applications & services for multiple clients. In CDAC, We have multiple clients and each client can have multiple servers. The development, staging and the production servers. So, maintaining the builds becomes the challenge."
+        },
+        {
+            "title": "The Solution",
+            "description": "By using this new technique, The single build can be used to all the different servers as well as different clients at the same time. This statement gets void only when you have new feature and for this you need to create a new build."
+        },
+        {
+            "title": "The Technique",
+            "description": "I have added the fetch request to the React app. That gets executed when the app loads in the browser at very first time. Then It fetches the json from the file names data.json and updates the states using contextAPI. It disables all the routes until this request is successful using a single flag."
+        },
+        {
+            "title": "Data.json",
+            "description": "The next step involves the maintaining & updating of the data.json. This is where this application (Deploy Master) comes in picture."
+        },
+        {
+            "title": "Features",
+            "description": "It maintains the list of all the clients with their server variations (dev, staging, production). Each client has its own data.json. It can be viewed, downloaded, edited or deleted. The download two options. First is using command (supports linux or windows) that fetches the data.json directly to the /var/www or C:// folder. Second is direct file download. The client edior is created to make editing easy. It has multiple tabs (General, UI, Services, Time, Keycloak). And for any reason, You can delete this client too."
+        },
+        {
+            "title": "Tech Stack",
+            "description": "This web application is build using MERN Stack. The frontend uses Vite React with Redux Toolkit for State Management along with Tailwind CSS + Daisy UI for few components. The backend uses Node & Express. And for the database, I have used MongoDB."
+        },
+        {
+            "title": "Deployment",
+            "description": "The frontend is deployed at netlify.com, The backend is deployed at render.com and for database I am using MongoDB Atlas."
+        }
+    ],
+    "id": "project",
+    "colors": {
+        "bgColor": "project1bg",
+        "tileBgColor": "project1TileBg"
+    },
+    "about": {
+        "header": "My Corporate Project",
+        "title": "Deploy Master",
+        "description": "The tool that makes deployment much easy and flexible"
+    },
+    "buttons": [
+        {
+            "link": "https://deploymaster.netlify.app",
+            "title": "Project Demo"
+        },
+        {
+            "link": "https://docs.google.com/document/d/1FrKSuWAcDpc-xF2ftVJPIp-S0BCyVQw-64_OwRTBgcg/edit?usp=sharing",
+            "title": "Documentation"
+        },
+        {
+            "link": "https://meghsikshak.in/",
+            "title": "Contact Sales"
+        }
+    ],
+    "youtube": {
+        "width": "560",
+        "height": "315",
+        "link": "https://www.youtube.com/embed/FUoR4d2guLU?si=7eVM243aHaj5c1l2"
+    }
+}
