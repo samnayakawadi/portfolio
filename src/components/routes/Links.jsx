@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
 
 const Links = ({ onHoverHandler }) => {
@@ -15,9 +17,15 @@ const Links = ({ onHoverHandler }) => {
         }
     };
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            handleUnlock();
+        }
+    };
+
     useEffect(() => {
-        onHoverHandler("links")
-    }, [])
+        onHoverHandler("links");
+    }, [onHoverHandler]);
 
     return (
         <div className="relative h-full w-full flex-grow">
@@ -33,6 +41,7 @@ const Links = ({ onHoverHandler }) => {
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
+                            onKeyDown={handleKeyDown}
                             className="border border-gray-300 p-3 mb-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                             placeholder="Password"
                         />
