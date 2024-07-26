@@ -15,3 +15,13 @@
         @apply scroll-mt-[64px]
     }
 }
+
+/* Custom CSS to hide scrollbar but allow scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    scrollbar-width: none;  /* For Firefox */
+  }
