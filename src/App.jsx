@@ -4,7 +4,8 @@ import Footer from "./components/footer/Footer"
 import Navbar from "./components/navbar/Navbar"
 import Main from "./components/routes/Main"
 import { Route, Routes, useLocation } from "react-router"
-import Links from "./components/routes/Links"
+import Resources from "./components/routes/Resources"
+import NotFoundPage from "./components/routes/404.jsx"
 
 export default function App() {
 
@@ -17,26 +18,27 @@ export default function App() {
 
   const location = useLocation()
 
-  const [currentRoute, setCurrentRoute] = useState(null)
+  const [currentHeight, setCurrentHeight] = useState(null)
 
   useEffect(() => {
-    if (location.pathname === "/links") {
-      setCurrentRoute("links")
+    if (location.pathname === "/home") {
+      setCurrentHeight("hFull")
     }
     else {
-      setCurrentRoute("home")
+      setCurrentHeight("hScreen")
     }
   })
 
-  if (currentRoute) {
+  if (currentHeight) {
     return (
-      <div data-theme="business" className={`cursor-crosshair flex flex-col ${currentRoute === 'links' ? 'h-screen' : 'h-full'}`}>
+      <div data-theme="business" className={`cursor-crosshair flex flex-col ${currentHeight === 'hFull' ? 'h-full' : 'h-screen'}`}>
         <Navbar currentLocation={currentLocation} />
         <Routes>
           <Route path="/" element={<Main onHoverHandler={onHoverHandler} />} />
-          <Route path="/links" element={<Links onHoverHandler={onHoverHandler} />} />
+          <Route path="/resources" element={<Resources onHoverHandler={onHoverHandler} />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
-        <Footer onHoverHandler={onHoverHandler} />
+        <Footer onHoverHandler={onHoverHandler} currentHeight={currentHeight} />
       </div>
     )
   }

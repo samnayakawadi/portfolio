@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import facebook from "./images/facebook.png"
 import linkedin from "./images/linkedin.png"
 import instagram from "./images/instagram.png"
 import twitter from "./images/twitter.png"
 import github from "./images/github.png"
 
-const Footer = () => {
+const Footer = ({ currentHeight }) => {
 
     return (
-        <div className="flex flex-row max-lg:flex-wrap justify-center items-center p-10 bg-footerbg max-lg:gap-10">
+        <div className={`flex flex-row max-lg:flex-wrap justify-center items-center ${currentHeight === 'hScreen' ? 'p-4' : 'p-10'} bg-footerbg max-lg:gap-10`}>
             <div className="basis-4/12 max-lg:basis-full text-center text-gray-400">
                 samnayakawadi |
                 {" "}

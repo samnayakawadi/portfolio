@@ -16,7 +16,7 @@ const Navbar = ({ currentLocation }) => {
                             <li><a href="/#service" className={`hover:text-redColor ${currentLocation === "service" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Service</a></li>
                             <li><a href="/#project" className={`hover:text-redColor ${currentLocation === "project" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Projects</a></li>
                             <li><a href="/#contact" className={`hover:text-redColor ${currentLocation === "contact" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Contact</a></li>
-                            <li><Link to="/links" className={`hover:text-redColor ${currentLocation === "links" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Links</Link></li>
+                            <li><Link to="/resources" className={`hover:text-redColor ${currentLocation === "resources" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Resources</Link></li>
                             {/* <li>
                                 <a>Parent</a>
                                 <ul className="p-2">
@@ -35,7 +35,7 @@ const Navbar = ({ currentLocation }) => {
                         <li><a href="/#service" className={`hover:text-redColor ${currentLocation === "service" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Service</a></li>
                         <li><a href="/#project" className={`hover:text-redColor ${currentLocation === "project" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Projects</a></li>
                         <li><a href="/#contact" className={`hover:text-redColor ${currentLocation === "contact" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Contact</a></li>
-                        <li><Link to="/links" className={`hover:text-redColor ${currentLocation === "links" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Links</Link></li>
+                        <li><Link to="/resources" className={`hover:text-redColor ${currentLocation === "resources" ? "text-redColor" : "text-white"} hover:bg-navbg`}>Resources</Link></li>
                         {/* <li tabIndex={0}>
                             <details>
                                 <summary>Parent</summary>
