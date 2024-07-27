@@ -6,7 +6,7 @@ const Resources = ({ onHoverHandler }) => {
     const [isLocked, setIsLocked] = useState(true);
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    const [selectedMenu, setSelectedMenu] = useState('Important Links');
+    const [selectedMenu, setSelectedMenu] = useState('Projects');
     const correctPassword = 'cdac@123$';
 
     const handleUnlock = () => {
